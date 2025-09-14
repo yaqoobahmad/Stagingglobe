@@ -1,0 +1,246 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#nav-first {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+#nav__first1 span {
+    font-family: 'Montserrat';
+    line-height: 100%;
+    text-align: right;
+    color: #000000;
+    text-align: end;
+}
+
+/* ---End--footer-section1-- */
+/* ---BEGIN--footer-section2-- */
+#nav-logo {
+    max-height: 60px;
+}
+
+#btn-mainnav {
+    background-color: #e07127;
+}
+
+#input-fouse {
+    outline: none;
+}
+
+#search-iconefect {
+    width: 5%;
+    /* display: none !important; */
+    transition: 7s;
+}
+
+#search-icon :hover #search-iconefect{
+    display: flex !important;
+    transform: translateX(100%);
+
+}
+
+/* #search-icon:hover {
+    display: none !important;
+} */
+
+/* #search-icon:hover #search-iconefect {
+    display: block !important;
+    transform: translateX(100%);
+} */
+
+/* ---END--footer-section2-- */
+
+
+/* ---BEGIN--footer-section3-- */
+.hover-boxmain {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 900px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+#mill-product:hover .hover-boxmain {
+    display: block;
+    z-index: 99;
+}
+
+.Engineered {
+    display: none;
+    z-index: -1;
+    width: 300px;
+    position: absolute;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+
+}
+
+.Capabilities-btn {
+    display: none;
+    z-index: -3;
+    width: 300px;
+    position: relative;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Engineered-btn:hover .Engineered {
+    display: block;
+    z-index: 99;
+}
+
+.Capabilities:hover .Capabilities-btn {
+    display: block;
+    z-index: 99;
+}
+
+.Services {
+    display: none;
+    z-index: -3;
+    width: 300px;
+    position: relative;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Services-btn:hover .Services {
+    display: block;
+    z-index: 99;
+}
+
+.Industries {
+    display: none;
+    z-index: -3;
+    width: 300px;
+    position: relative;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Industries-btn:hover .Industries {
+    display: block;
+    z-index: 99;
+}
+
+#button-menu:hover {
+    border: 2px solid;
+}
+
+#button-bottom:hover {
+    border: none;
+    background-color: white;
+}
+
+.h1-pcon h1 {
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    font-size: 3.125rem;
+    letter-spacing: 4px;
+    color: rgb(0, 125, 187);
+}
+
+.h1-pcon p {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: rgb(0, 125, 187);
+
+}
+
+.wcolor {
+    color: rgb(0, 125, 187);
+}
+
+.color-makerl {
+    background: linear-gradient(to bottom,  #ffffff, #26507E, #ffffff);
+    color: #000;
+}
+
+.rotate-box {
+    overflow: hidden !important;
+    position: relative;
+    padding: 60px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Bebas Neue";
+}
+
+.rotate-inline {
+    display: flex;
+    gap: 30px;
+    animation: scroolleft 20s linear infinite;
+}
+@keyframes scroolleft{
+    0%{
+    transform: translateX(0%) ;
+    }
+    100%{
+    transform: translateX(-50%) ;
+    }
+}
+.rotate-inline2 {
+    display: flex;
+    gap: 30px;
+    animation: scroolright 20s linear infinite;
+}
+@keyframes scroolright{
+    0%{
+    transform: translateX(-50%);
+    }
+    100%{
+    transform: translateX(0%);
+    }
+}
+/* .rotate-card-holder{
+    transition: 5;
+    transform: translateX(-50%) ;
+} */
+.rotate-card{
+    height: 200px;
+    width: 300px;
+    background: white;
+    box-shadow: 0px 5px 4px 5px #00000066;
+    border-radius: 10px;
+    transform: rotate(-1.5deg);
+}
+
+@include media-breakpoint-up(md) {
+    .xxl-container {
+        display: flex;
+    }
+
+    .h1-pcon h1 {
+        font-family: "Bebas Neue";
+        font-size: 1.125rem;
+        /* letter-spacing:  2px; */
+        color: rgb(0, 125, 187);
+    }
+
+    .h1-pcon p {
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        line-height: 36px;
+        color: rgb(0, 125, 187);
+
+    }
+
+    #button-menu:hover .mainnav-container {
+
+        display: block;
+    }
+}
+
+/* ---END--footer-section3-- */
