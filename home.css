@@ -50,15 +50,13 @@ body {
     transform: translateX(100%);
 
 }
-
-/* #search-icon:hover {
-    display: none !important;
-} */
-
-/* #search-icon:hover #search-iconefect {
-    display: block !important;
-    transform: translateX(100%);
-} */
+.images-folder img{
+    max-height: 120px;
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 120px;
+    object-fit: contain;
+}
 
 /* ---END--footer-section2-- */
 
@@ -216,7 +214,9 @@ h6{
     border-radius: 10px;
     transform: rotate(-1.5deg);
 }
-
+.liner-colors{
+    background: linear-gradient(to bottom, blue, white);
+}
 @include media-breakpoint-up(md) {
     .xxl-container {
         display: flex;
