@@ -217,6 +217,18 @@ h6{
 .liner-colors{
     background: linear-gradient(to bottom, blue, white);
 }
+.images-folder2{
+   max-height: 200px;
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 90px;
+    height: 100%;
+    object-fit: contain; 
+}
+
+
+
+
 @include media-breakpoint-up(md) {
     .xxl-container {
         display: flex;
