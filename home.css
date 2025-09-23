@@ -29,6 +29,7 @@ body {
 /* ---BEGIN--footer-section2-- */
 #nav-logo {
     max-height: 60px;
+    height: auto;
 }
 
 #btn-mainnav {
@@ -62,12 +63,19 @@ body {
 
 
 /* ---BEGIN--footer-section3-- */
+.montserrat{
+    font-family: 'Montserrat';
+}
 .hover-boxmain {
     display: none;
     position: absolute;
     z-index: -1;
     width: 900px;
     box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+#mill-product{
+    color: rgb(38, 80, 126);
 }
 
 #mill-product:hover .hover-boxmain {
@@ -156,6 +164,9 @@ body {
 .wcolor {
     color: rgb(0, 125, 187);
 }
+/* a{
+    color: rgb(0, 125, 187);
+} */
 
 .color-makerl {
     background: linear-gradient(to bottom,  #ffffff, #26507E, #ffffff);
@@ -217,13 +228,16 @@ h6{
 .liner-colors{
     background: linear-gradient(to bottom, blue, white);
 }
-.images-folder2{
-   max-height: 200px;
+#images-folder2{
+    max-height: auto;
     max-width: 100%;
-    height: auto;
-    flex: 1 1 90px;
-    height: 100%;
-    object-fit: contain; 
+
+}
+.card-custom{
+    border: 1px solid #007DBB;
+    padding: 5rem 8px;
+    background-color: white;
+    text-align: center;
 }
 
 
@@ -247,6 +261,9 @@ h6{
         line-height: 36px;
         color: rgb(0, 125, 187);
 
+    }
+    .box-span {
+        font-size: 16px;
     }
 
     #button-menu:hover .mainnav-container {
