@@ -40,16 +40,119 @@ body {
     outline: none;
 }
 
-#search-iconefect {
+.search-iconefect {
     width: 5%;
     transition: 7s;
 }
 
-#search-icon :hover #search-iconefect{
-    display: flex !important;
+#search-icon :hover .search-iconefect{
+    /* display: flex !important; */
     transform: translateX(100%);
 
 }
+
+
+/* ---END--footer-no2-- */
+
+
+/* ---BEGIN--footer-no3-- */
+.montserrat{
+    font-family: 'Montserrat'!important;
+}
+
+.tfamily{
+    font-family: "Bebas Neue";
+}
+
+.wcolor {
+    color: rgb(0, 125, 187);
+}
+/* .ulcolor{
+    color: #121010;
+} */
+
+
+/* ---BEGIN-- Building  --section2-- */
+
+#border_satup{
+    border-right: 2px solid #007DBB;
+}
+
+/* ---End-- Building  --section2-- */
+
+/* ---BEGIN-- titanim --section3-- */
+.titanim-h h5{
+    font-family: 'Bebas Neue';
+    font-size: 4rem ;
+    letter-spacing:4px;
+    line-height:110%
+}
+/* ---End-- titanim --section3-- */
+
+/* ---Begin-- Laube --section4-- */
+.h1-pcon h1 {
+    font-family: "Bebas Neue";
+    font-weight: 500;
+    font-size: 3.125rem;
+    letter-spacing: 4px;
+    color: rgb(0, 125, 187);
+}
+
+.h1-pcon p {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: rgb(0, 125, 187);
+}
+
+/* ---END-- Laube --section4-- */
+
+/* ---BEGIN-- --section6-- */
+    .sec-6 h4{
+      font-size:4rem;
+      letter-spacing:3px;  
+    }
+    .sec-6 p{
+      font-size:24px;
+      letter-spacing:1px;
+      line-height:1.4
+    }
+
+/* ---END--  --section6-- */
+
+/* ---BEGIN--  --section8-- */
+    .sec-8 h4{
+        font-size:64px;
+         letter-spacing:3px;
+         /* font-family: 'Bebas Neue'; */
+    }
+    .pera-1 p{
+        font-size: 1.5rem;
+         letter-spacing:1px;
+          line-height:38px;
+           font-family: 'Montserrat';
+    }
+    .list_s ul{
+       font-size:20px;
+       letter-spacing:1px; 
+       line-height:2.2 
+    }
+/* ---END--  --section8-- */
+
+/* ---BEGIN--  --section9-- */
+    .sec-9 h3{
+        font-size: 4em;
+         letter-spacing:4px;
+         line-height:1.2;
+    }
+    .sec-9 p{
+        font-size: 1.5rem;
+         letter-spacing:1px;
+          line-height:1.4;
+    }
+/* ---END--  --section9-- */
+
+/* ---BEGIN--  --section10-- */
 .images-folder img{
     max-height: 120px;
     max-width: 100%;
@@ -58,13 +161,19 @@ body {
     object-fit: contain;
 }
 
-/* ---END--footer-section2-- */
-
-
-/* ---BEGIN--footer-section3-- */
-.montserrat{
-    font-family: 'Montserrat';
+/* ---END--  --section10-- */
+.sec11-div h3{
+   font-size: 4rem;
+    letter-spacing:4px;
+     line-height:1.2 
 }
+/* ---BEGAIN--  --section11-- */
+
+
+/* ---END--  --section11-- */
+
+
+
 .hover-boxmain {
     display: none;
     position: absolute;
@@ -144,25 +253,8 @@ body {
     background-color: white;
 }
 
-.h1-pcon h1 {
-    font-family: "Bebas Neue";
-    font-weight: 500;
-    font-size: 3.125rem;
-    letter-spacing: 4px;
-    color: rgb(0, 125, 187);
-}
 
-.h1-pcon p {
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-    line-height: 36px;
-    color: rgb(0, 125, 187);
 
-}
-
-.wcolor {
-    color: rgb(0, 125, 187);
-}
 /* a{
     color: rgb(0, 125, 187);
 } */
@@ -177,15 +269,13 @@ body {
     position: relative;
     padding: 60px 0;
 }
-.tfamily{
-    font-family: "Bebas Neue";
-}
 
 .rotate-inline {
     display: flex;
     gap: 30px;
     animation: scroolleft 20s linear infinite;
 }
+
 @keyframes scroolleft{
     0%{
     transform: translateX(0%) ;
@@ -194,6 +284,7 @@ body {
     transform: translateX(-50%) ;
     }
 }
+
 .rotate-inline2 {
     display: flex;
     gap: 30px;
@@ -230,44 +321,106 @@ body {
     background-color: white;
     text-align: center;
 }
-#border_satup{
-    border-right: 2px solid #007DBB;
-}
+
+
 .mb-3 textarea,
 .mb-3 input{
     border: 1px solid;
     border-radius: 0px;
 }
-@media (max-width: 768px) {
- .xxl-container {
-        display: flex;
+
+
+/* ----media query ---  */
+
+@media (max-width: 1199px) {
+    .list_s ul{
+       font-size:16px;
+    }
+}
+@media (max-width: 990px) {
+    .titanim-h h5{
+        font-size: 2.5rem;
+    }
+    .sec-6 h4{
+      font-size:2.4rem;
+      font-weight: bold;
+    }
+    .sec-6 p{
+      font-size: 1rem;
+    }
+    .sec-8 h4{
+        font-size:3rem;
+    }
+    .pera-1 p{
+        font-size: 1rem;
+    }
+    .list_s ul{
+       font-size:13px;
+    }
+    .sec-9 h3{
+        font-size: 3em;
+    }
+    .sec-9 p{
+        font-size: 1.5rem;
+    }
+    .images-folder img{
+    max-height: 73px;
     }
 
+    .sec11-div h3{
+   font-size: 3rem;
+}
+}
+@media (max-width: 768px) {
+    .titanim-h h5{
+        font-size: 1rem;
+    }
+    .sec-4{
+        max-width: 720px;
+
+    }
+    .sec-8 h4{
+        font-size:2rem;
+    }
+    .sec-8 p{
+        font-size: 1rem;
+    }
+    .images-folder img{
+    max-height: 45px;
+    }
+
+    .sec11-div h3{
+        font-size: 2.2rem;
+    }
     #border_satup{
         border-bottom: 2px solid #007DBB ;
         border-right: 0px ;
     }
-    .h1-pcon h1 {
-        font-family: "Bebas Neue";
-        font-size: 1.125rem;
-        color: rgb(0, 125, 187);
+    .titanim-h h5{
+        font-size: 30px;
     }
 
-    .h1-pcon p {
-        letter-spacing: 1px;
-        font-size: 1.5rem;
-        line-height: 36px;
-        color: rgb(0, 125, 187);
-
-    }
     .box-span {
         font-size: 16px;
     }
 
-    #button-menu:hover .mainnav-container {
 
-        display: block;
+}
+
+@media (max-width: 420px){
+    .titanim-h h5{
+        font-size: 1.1rem;
     }
+    /* .h1-pcon h1 {
+        font-size: 2.4rem;
+
+    }
+
+    .h1-pcon p {
+        font-size: 1.2rem;
+
+    } */
+
 }
 /* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.240628474023!2d-119.01679962426182!3d34.22384597307985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e84f0a2ea7a9c7%3A0x19c5e3f1c9c4f1ff!2s250%20Via%20Alexander%2C%20Camarillo%2C%20CA%2093012%2C%20USA!5e0!3m2!1sen!2s!4v1722345361906!5m2!1sen!2s" width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-4"></iframe> */
 
